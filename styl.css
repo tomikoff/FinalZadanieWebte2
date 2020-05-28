@@ -1,0 +1,171 @@
+html{
+  background-color: beige;
+}
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+h2{
+  width: 100%;
+}
+img{
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 35%;
+}
+img.zivo{
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(224, 224, 183);
+  
+}
+ul.vertikal{
+  list-style-type: initial;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: beige;
+
+  
+}
+ul.zivo{
+  list-style-type: initial;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:grey;
+
+  
+}
+ul.zivo1{
+  list-style-type: initial;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:burlywood;
+
+  
+}
+li.vert{
+  margin-left: 28px;
+  margin-top: 6px;
+  text-align: left;
+ float: left;
+ clear :left;                              
+}
+ aside{
+   display: block;
+     float: right;
+     font-style: italic;
+     position: relative;
+     top:250px;                                                    
+ }
+ cite{
+   font-size: larger;
+ }
+ b{
+   font-size: x-large;
+   position: relative;
+   top:20px;
+ }
+ b.zivo{
+  font-size: x-large;
+  position: relative;
+  top:10px;
+  left:35px;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+li{
+float: left;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+li a.email {
+  display: inline;
+  color: black;
+  text-align: center;
+  padding: 0px 0px;
+  text-decoration: none;
+}
+  p {
+    font-family: "century gothic";
+    color: black;
+    font-size: 19px;
+    margin-left: 8px;
+  }
+  footer{
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    background-color:beige;
+  }
+  .column{
+    float: left;
+    width: 50%;
+    height: 400px;
+    text-align: left;
+    
+    
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+    
+   
+  }
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgb(47, 190, 78);
+    
+  }
+  th{
+    height: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    
+  }
+  td{
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+  }
+  th.informacie {background-color: beige;
+        font-weight:  bolder;
+  }
+  th.prednaska {
+      background-color: aqua;
+  }
+  th.cviko{
+      background-color: rgb(49, 168, 49);
+  }
+  th.telesna{
+    background-color: red;
+  }
